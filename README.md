@@ -118,4 +118,4 @@ AI tools were used selectively to assist the team during the project:
 - **ChatGPT:** Assisted in plotting the correlation heatmap and refining the README documentation.
 - **Claude:** Assisted in debugging code, understanding errors, interpreting model results, and preparing the project presentation.
 
-The team reviewed the AI-assisted outputs and verified the final work before submission.
+All AI-assisted suggestions were checked by running and reviewing the code, comparing the model results with the notebook outputs, and reviewing the generated content before including it in the final project.
