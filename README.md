@@ -38,7 +38,7 @@ The target variable is `Churn`, which indicates whether a customer has left the 
 
 | Team Member | Student ID | Role |
 |---|---|---|
-| Jhanvi Yadav | 2026EEB1356 | Execution Lead |
+| Janhvi Yadav | 2026EEB1356 | Execution Lead |
 | Kinjal Khatri | 2026EEB1366 | PPT Lead |
 | Siddharth Gangwar | 2026MCB1571 | Documentation Lead |
 | Amandeep | 2026AIB1007 | Video Lead |
@@ -127,7 +127,7 @@ The following parameters were used:
 
 After preprocessing, the input features (`X`) and target variable (`y`) were prepared for exploratory data analysis and Logistic Regression model development.
 
-### Setup
+## Setup
 
 Tested on Python 3.14.6 (Windows)
 
@@ -172,7 +172,7 @@ jupyter notebook
 3. Click **Kernel > Restart & Run All**.
 4. Wait for all cells to finish (expected runtime: under 1 minute).
 
-The dataset is already included at `data/WA_Fn-UseC_-Telco-Customer-Churn.csv` and is read using a relative path, so no download is needed.
+The dataset is already included at `WA_Fn-UseC_-Telco-Customer-Churn.csv` and is read using a relative path, so no download is needed.
 
 ## 7. Project Links
 
