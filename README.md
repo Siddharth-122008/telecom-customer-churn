@@ -137,6 +137,6 @@ The model achieves approximately 80% accuracy on the test dataset. However, its 
 AI tools were used selectively to assist the team during the project:
 
 - **ChatGPT:** Assisted in plotting the correlation heatmap and refining the README documentation.
-- **Claude:** Assisted in debugging code, understanding errors, interpreting model results, and preparing the project presentation.
+- **Claude:** Assisted in debugging code, understanding errors, interpreting model results, and to improve the language of ppt
 
 All AI-assisted suggestions were checked by running and reviewing the code, comparing the model results with the notebook outputs, and reviewing the generated content before including it in the final project.
