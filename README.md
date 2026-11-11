@@ -14,7 +14,7 @@ In this project, we use Logistic Regression to predict customer churn based on f
 
 | Team Member | Student ID | Role |
 |---|---|---|
-| Jhanvi Yadav | 2026EEB1356 | Execution Lead |
+| Janhvi Yadav | 2026EEB1356 | Execution Lead |
 | Kinjal Khatri | 2026EEB1366 | PPT Lead and EDA |
 | Siddharth Gangwar | 2026MCB1571 | Documentation and Data Preprocessing |
 | Amandeep | 2026AIB1007 | Predictions and Model Evaluation |
