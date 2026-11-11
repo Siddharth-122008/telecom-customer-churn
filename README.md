@@ -27,7 +27,12 @@ telecom-customer-churn/
 ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
 ├── churn_prediction.ipynb
 ├── requirements.txt
-└── README.md
+├── README.md
+├── Telco_Churn_Team66_Slides.pdf
+└── Output_images/
+    ├── classification_report.png
+    ├── confusion_matrix.png
+    └── correlation_heatmap.png
 ```
 
 ## 4. Setup
