@@ -79,7 +79,11 @@ The dataset is already included at `WA_Fn-UseC_-Telco-Customer-Churn.csv` and is
 
 ## 6. Expected Output
 
-The Logistic Regression model produces the following results on the test dataset:
+The Logistic Regression model predicts whether a telecom customer is likely to churn or stay. The model is evaluated using accuracy, precision, recall, F1-score, and a confusion matrix.
+
+### Model Evaluation Metrics
+
+The model achieves the following results on the test dataset:
 
 | Evaluation Metric | Score |
 |---|---:|
@@ -88,22 +92,39 @@ The Logistic Regression model produces the following results on the test dataset
 | Recall (Churn = 1) | 53.48% |
 | F1-Score (Churn = 1) | 58.14% |
 
-**Classification Report:**
+### Classification Report
+
+The classification report provides a detailed performance summary for both classes.
 
 | Class | Precision | Recall | F1-Score | Support |
 |---|---:|---:|---:|---:|
 | No Churn (0) | 0.84 | 0.89 | 0.86 | 1035 |
 | Churn (1) | 0.64 | 0.53 | 0.58 | 374 |
 
-The notebook also generates a confusion matrix to show correct and incorrect predictions, along with exploratory data analysis visualizations such as:
+![Classification Report](Output_images/classification_report.png)
 
-- Churn distribution
-- Churn rate by contract type
-- Tenure distribution based on churn
-- Monthly charges comparison based on churn
-- Correlation heatmap
+### Confusion Matrix
 
-**Overall Observation:** The model achieves approximately 80% accuracy. However, its recall for customers who churn is lower, indicating that some customers likely to leave are not identified by the model.
+The confusion matrix shows the actual and predicted customer categories.
+
+- **921:** Customers who stayed and were correctly predicted as stayed (True Negative).
+- **114:** Customers who stayed but were incorrectly predicted as churned (False Positive).
+- **174:** Customers who churned but were incorrectly predicted as stayed (False Negative).
+- **200:** Customers who churned and were correctly predicted as churned (True Positive).
+
+![Confusion Matrix](Output_images/confusion_matrix.png)
+
+### Correlation Heatmap
+
+The correlation heatmap shows the relationships between the selected input features and the target variable, Churn.
+
+It helps identify patterns and understand how different customer attributes are related to churn.
+
+![Correlation Heatmap](Output_images/correlation_heatmap.png)
+
+### Overall Observation
+
+The model achieves approximately 80% accuracy on the test dataset. However, its recall for churned customers is 53.48%, which means some customers who are likely to leave are not identified correctly. This indicates scope for further improvement in predicting customer churn.
 
 ## 7. Project Links
 
