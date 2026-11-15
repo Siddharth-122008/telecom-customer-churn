@@ -134,8 +134,8 @@ The model achieves approximately 80% accuracy on the test dataset. However, its 
 ## 7. Project Links
 
 - **GitHub Repository:** [Telecom Customer Churn Prediction](https://github.com/Siddharth-122008/telecom-customer-churn)
-- **Presentation:** To be added.
-- **Project Video:** To be added.
+- **Presentation:** To be ADDED.
+- **Project Video:** https://drive.google.com/file/d/1pEM3J9MLbE8NO0alkuyFE_VJoPlfwfYz/view?usp=drivesdk
 
 ## 8. AI Tools Disclosure
 
